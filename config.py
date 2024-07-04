@@ -7,5 +7,5 @@ CHANNELS = [int(channel_id) for channel_id in os.environ.get("CHANNELS", "").spl
 OWNER_ID = int(os.environ.get("OWNER_ID",1280356202))
 PAYMENT_CHANNEL = int(os.environ.get("PAYMENT_CHANNEL",""))
 DAILY_BONUS = int(os.environ.get("DAILY_BONUS", 1))
-MINI_WITHDRAW = int(os.environ.get("MINI_WITHDRAW", 2)
+MINI_WITHDRAW = int(os.environ.get("MINI_WITHDRAW", 2))
 PER_REFER = int(os.environ.get("PER_REFER", 100))
