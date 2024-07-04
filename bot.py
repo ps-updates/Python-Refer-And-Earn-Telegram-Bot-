@@ -2,7 +2,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 import json
 import time
-from config import API_ID, API_HASH, BOT_TOKEN, CHANNELS, OWNER_ID, PAYMENT_CHANNEL, DAILY_BONUS, MINI_WITHDRAW, PER_REFER
+from config import API_ID, API_HASH, BOT_TOKEN, CHANNELS, OWNER_ID, PAYMENT_CHANNEL, DAILY_BONUS, MINI_WITHDRAW, PER_REFER, TOKEN
 
 app = Client("new bot",
              api_id=API_ID,
