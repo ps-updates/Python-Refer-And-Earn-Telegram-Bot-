@@ -1,9 +1,13 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 import json
-from config import BOT_TOKEN, CHANNELS, OWNER_ID, PAYMENT_CHANNEL, DAILY_BONUS, MINI_WITHDRAW, PER_REFER
+from config import API_ID, API_HASH, BOT_TOKEN, CHANNELS, OWNER_ID, PAYMENT_CHANNEL, DAILY_BONUS, MINI_WITHDRAW, PER_REFER
 
-app = Client("my_bot", bot_token=BOT_TOKEN)
+app = Client("new bot",
+             api_id=API_ID,
+             api_hash=API_HASH,
+             bot_token=BOT_TOKEN
+            )
 
 # Load or initialize user data
 def load_or_init_user_data():
