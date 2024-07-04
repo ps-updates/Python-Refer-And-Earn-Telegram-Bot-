@@ -76,10 +76,10 @@ async def start(client, message: Message):
         keyboard = InlineKeyboardMarkup([[InlineKeyboardButton("Join Channel", url=link)]])
         await message.reply("You must join the channel to use this bot.", reply_markup=keyboard)
 
-@app.on_message(filters.text & ~filters.command)
+"""@app.on_message(filters.text & ~filters.command)
 async def handle_text(client, message: Message):
     # This can handle various text inputs like setting wallet, responding to queries, etc.
-    pass
+    pass""
 
 async def menu(client, message, user_id):
     keyboard = InlineKeyboardMarkup([
