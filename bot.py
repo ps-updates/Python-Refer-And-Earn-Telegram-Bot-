@@ -79,7 +79,7 @@ async def start(client, message: Message):
 """@app.on_message(filters.text & ~filters.command)
 async def handle_text(client, message: Message):
     # This can handle various text inputs like setting wallet, responding to queries, etc.
-    pass""
+    pass"""
 
 async def menu(client, message, user_id):
     keyboard = InlineKeyboardMarkup([
